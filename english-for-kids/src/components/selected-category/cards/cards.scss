@@ -1,0 +1,107 @@
+.card-container {
+  margin: 1%;
+  display: flex;;
+  align-items: center;
+  justify-content: space-around;
+  perspective: 80rem;
+  cursor: pointer;
+
+  &:hover > .card {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.5);
+  }
+
+  &.flipped > .card {
+    transform: rotateY(180deg) translateX(-100%);
+    transform-origin: left;
+  }
+
+  &:hover > .card > .card-block-inactive {
+    cursor: default;
+  }
+}
+  
+.card {
+  position: relative;
+  width: 300px;
+  height: 260px;
+  transform-style: preserve-3d;
+  transform-origin: right;
+  transition: all .5s;
+  border-radius: .5rem;
+  box-shadow: 0 .1rem .25rem black;
+  background-color: white;
+
+  &-block {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 260px;
+    background-color: transparent;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    border-radius: .5rem;
+  }
+  &-block-inactive {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    height: 260px;
+    background-color: green;
+    opacity: 0.4;
+    border-radius: .5rem;
+  }
+
+  &__image {
+    &-front, &-back {
+      position: absolute;
+      top: 0%;
+      left: 13%;
+      width: 70%;
+      height: 80%;
+      border-radius: inherit;
+      background-size: cover;
+      background-color: transparent;
+      backface-visibility: hidden;
+    }
+
+    &-back {
+      transform: rotateY(180deg);
+    }
+  }
+
+  &__title {
+    &-front, &-back {
+      position: relative;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 26px;
+      color: #313030;
+      backface-visibility: hidden;
+    }
+
+    &-front {
+      top: 85%;
+    }
+
+    &-back {
+      top: 76%;
+      transform: rotateY(180deg);
+    }
+  }
+
+  &-turn-over {
+    position: absolute;
+    top: 87%;
+    left: 267px;
+    backface-visibility: hidden;
+  }
+
+  &__image-back {
+    transform: rotateY(180deg);
+  }
+}

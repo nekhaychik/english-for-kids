@@ -1,0 +1,281 @@
+[
+  {
+    "category": "category-links",
+    "images": [
+      "animals.png",
+      "food.png",
+      "nature.png",
+      "clothes.png",
+      "actions.png",
+      "education.png",
+      "weather.png",
+      "home.png"
+    ],
+    "sounds": [],
+    "translation": []
+  },
+  {
+    "category": "animals",
+    "images": [
+      "frog.png",
+      "horse.png",
+      "koala.png",
+      "lion.png",
+      "pig.png",
+      "rhino.png",
+      "sloth.png",
+      "snake.png"
+    ],
+    "sounds": [
+      "frog.mp3",
+      "horse.mp3",
+      "koala.mp3",
+      "lion.mp3",
+      "pig.mp3",
+      "rhino.mp3",
+      "sloth.mp3",
+      "snake.mp3"
+    ],
+    "translation": [
+      "лягушка",
+      "лошадь",
+      "коала",
+      "лев",
+      "свинья",
+      "носорог",
+      "ленивец",
+      "змея"
+    ]
+  },
+  {
+    "category": "food",
+    "images": [
+      "apple.png",
+      "cheese.png",
+      "fish.png",
+      "orange.png",
+      "strawberry.png",
+      "tea.png",
+      "tomato.png",
+      "watermelon.png"
+    ],
+    "sounds": [
+      "apple.mp3",
+      "cheese.mp3",
+      "fish.mp3",
+      "orange.mp3",
+      "strawberry.mp3",
+      "tea.mp3",
+      "tomato.mp3",
+      "watermelon.mp3"
+    ],
+    "translation": [
+      "яблоко",
+      "сыр",
+      "рыба",
+      "апельсин",
+      "клубника",
+      "чай",
+      "помидор",
+      "арбуз"
+    ]
+  },
+  {
+    "category": "clothes",
+    "images": [
+      "dress.png",
+      "glasses.png",
+      "hat.png",
+      "shorts.png",
+      "skirt.png",
+      "sneakers.png",
+      "swimsuit.png",
+      "trousers.png"
+    ],
+    "sounds": [
+      "dress.mp3",
+      "glasses.mp3",
+      "hat.mp3",
+      "shorts.mp3",
+      "skirt.mp3",
+      "sneakers.mp3",
+      "swimsuit.mp3",
+      "trousers.mp3"
+    ],
+    "translation": [
+      "платье",
+      "очки",
+      "шляпа",
+      "шорты",
+      "юбка",
+      "кроссовки",
+      "купальник",
+      "штаны"
+    ]
+  },
+  {
+    "category": "actions",
+    "images": [
+      "cook.png",
+      "dance.png",
+      "listen to music.png",
+      "read.png",
+      "search.png",
+      "sing.png",
+      "sleep.png",
+      "think.png"
+    ],
+    "sounds": [
+      "cook.mp3",
+      "dance.mp3",
+      "listen to music.mp3",
+      "read.mp3",
+      "search.mp3",
+      "sing.mp3",
+      "sleep.mp3",
+      "think.mp3"
+    ],
+    "translation": [
+      "готовить",
+      "танцевать",
+      "слушать музыку",
+      "читать",
+      "искать",
+      "петь",
+      "спать",
+      "думать"
+    ]
+  },
+  {
+    "category": "education",
+    "images": [
+      "chemistry.png",
+      "computer science.png",
+      "drawing.png",
+      "geography.png",
+      "mathematics.png",
+      "physics.png",
+      "physical education (PE).png",
+      "sociology.png"
+    ],
+    "sounds": [
+      "chemistry.mp3",
+      "computer science.mp3",
+      "drawing.mp3",
+      "geography.mp3",
+      "mathematics.mp3",
+      "physics.mp3",
+      "physical education (PE).mp3",
+      "sociology.mp3"
+    ],
+    "translation": [
+      "химия",
+      "информатика",
+      "рисование",
+      "география",
+      "математика",
+      "физика",
+      "физкультура",
+      "социология"
+    ]
+  },
+  {
+    "category": "weather",
+    "images": [
+      "drought.png",
+      "heat.png",
+      "hurricane.png",
+      "rain.png",
+      "snowing.png",
+      "storm.png",
+      "tsunami.png",
+      "wind.png"
+    ],
+    "sounds": [
+      "drought.mp3",
+      "heat.mp3",
+      "hurricane.mp3",
+      "rain.mp3",
+      "snowing.mp3",
+      "storm.mp3",
+      "tsunami.mp3",
+      "wind.mp3"
+    ],
+    "translation": [
+      "засуха",
+      "жара",
+      "ураган",
+      "дождь",
+      "идёт снег",
+      "гроза",
+      "цунами",
+      "ветер"
+    ]
+  },
+  {
+    "category": "home",
+    "images": [
+      "bath.png",
+      "window.png",
+      "bed.png",
+      "wardrobe.png",
+      "door.png",
+      "stove.png",
+      "fridge.png",
+      "sofa.png"
+    ],
+    "sounds": [
+      "bath.mp3",
+      "window.mp3",
+      "bed.mp3",
+      "wardrobe.mp3",
+      "door.mp3",
+      "stove.mp3",
+      "fridge.mp3",
+      "sofa.mp3"
+    ],
+    "translation": [
+      "ванна",
+      "окно",
+      "кровать",
+      "шкаф",
+      "дверь",
+      "плита",
+      "холодильник",
+      "диван"
+    ]
+  },
+  {
+    "category": "nature",
+    "images": [
+      "cloud.png",
+      "drop.png",
+      "flower.png",
+      "forest.png",
+      "mountain.png",
+      "rainbow.png",
+      "sun.png",
+      "tree.png"
+    ],
+    "sounds": [
+      "cloud.mp3",
+      "drop.mp3",
+      "flower.mp3",
+      "forest.mp3",
+      "mountain.mp3",
+      "rainbow.mp3",
+      "sun.mp3",
+      "tree.mp3"
+    ],
+    "translation": [
+      "облако",
+      "капля",
+      "цветок",
+      "лес",
+      "гора",
+      "радуга",
+      "солнце",
+      "дерево"
+    ]
+  }
+]

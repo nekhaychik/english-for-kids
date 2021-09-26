@@ -1,0 +1,43 @@
+.start-game {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #0099AE 0%, #00BF82 100%);
+  width: 200px;
+  height: 60px;
+  display: none;
+}
+
+.repeat-game {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  cursor: pointer;
+  width: 120px;
+  height: 60px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #0099AE 0%, #00BF82 100%);
+  display: none;
+}
+
+.win-image {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.lose-image {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#message {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(77, 70, 70);
+}

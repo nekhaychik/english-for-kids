@@ -1,0 +1,22 @@
+.links {
+  display: grid;
+  width: 90%;
+  justify-content: end;
+
+  &__github,
+  &__rsschool {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #a1a1a1;
+    text-decoration: none;
+    &:hover {
+      color: #0099AE;
+      text-decoration: underline;
+    }
+  }
+}
